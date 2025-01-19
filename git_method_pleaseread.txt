@@ -1,0 +1,18 @@
+…or create a new repository on the command line(처음 만들 때)
+
+echo "# Test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/SeenYoungSeob/Test.git
+git push -u origin main
+
+…or push an existing repository from the command line(수정 시 매뉴얼)
+
+git init은 할 필요없고 바로 git add .해주면 됨
+git status로 modified된 것 확인
+git commit -m "second commit"
+git remote add origin https://github.com/SeenYoungSeob/Test.git
+git branch -M main
+git push -u origin main
