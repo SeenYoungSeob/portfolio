@@ -13,6 +13,4 @@ git push -u origin main
 git init은 할 필요없고 바로 git add .해주면 됨
 git status로 modified된 것 확인
 git commit -m "second commit"
-git remote add origin https://github.com/SeenYoungSeob/Test.git
-git branch -M main
 git push -u origin main
